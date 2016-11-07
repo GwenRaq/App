@@ -39,7 +39,43 @@ animalHouse(2,6);
 //Fish2
 
 if(count > 2){
-	console.log('We have too many' + animal + "s");
+	console.log("We have too many" + animal + "s");
 }else{
- 	console.log('Welcome to the club')
+ 	console.log("Welcome to the club");
 } 
+
+//Avengers
+var hero = "ironman"
+function avengersAssemble(avenger){
+if(avenger == "ironman"){
+		console.log("Muahaha");
+}
+else if(avenger == "captainAmerica"){
+		console.log("Lets go!");
+}
+else if(avenger == "blackWidow"){
+		console.log("We can do it!");
+}
+else{
+	console.log("Sorry, you are not needed for this mission");
+	}
+}
+avengersAssemble(hero);
+
+//LightsOut
+var lights = true;
+if(lights == true){
+	console.log("And then there was light");
+}else if (lights == false){
+	console.log("Lights out");
+}
+
+//Car
+var carType = "Toyota"
+var color = "black"
+var num = 2;
+
+if(carType == "Toyota" && color == "blue"){
+	console.log()
+}
+
