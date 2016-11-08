@@ -1,6 +1,6 @@
 //variables
-var hero = "Guy";
-var gender = "Girl";
+var hero = "Batman";
+var gender = "female";
 var age = 26;
 var weapon = "Katana";
 var pronoun; 
@@ -11,20 +11,23 @@ if(gender === "female"){
 }else if (gender === "male"){
 	pronoun = "her";
 }else{
-	pronoun = "it";
+	pronoun = "their";
 }
  //age 
  var xp = null;
 if(age < 18){
  	xp = "just beginning";
+ 	console.log(xp);
  }else if (age >= 21 && <= 40)
  	xp = "has seen a few battles";
+ 	console.log(xp);
  }else{
  	xp = "has live through epic battles";
+ 	console.log(xp);
  }
 
  //Sentence
-console.log (hero + " is our lovable hero," + xp + " with" + pronoun + " trusty" + weapon);
+console.log (hero + " is our lovable hero, who " + xp + " with" + pronoun + " trusty" + weapon);
 
 //Fish
 var count;
@@ -75,7 +78,10 @@ var carType = "Toyota"
 var color = "black"
 var num = 2;
 
-if(carType == "Toyota" && color == "blue"){
-	console.log()
+if(carType == "Toyota" && color == "blue"||carType == "Lamborghini" && color == "red"||carType == "Tesla" && color == "black"){
+	console.log("we have "+" "+ num+" "+ color+" "+ carType+"s");
+}else if(num==1){
+	console.log("we have"+ num+" "+ color+" "+ carType);
+}else{
+	console.log("We don't have any "+color +" "+carType+"s in stock");
 }
-
